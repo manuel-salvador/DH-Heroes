@@ -10,24 +10,6 @@ body {
     height: 100vh;
 }
 
-button {
-    position: absolute;
-    border: 0;
-}
-
-button a{
-    display: flex;
-    color: #fff;
-    background-color: #044c8f;
-    padding: 10px 15px;
-    font-size: 18px;
-}
-
-button a:hover{
-    background-color: #2472bb;
-    box-shadow:0px 0px 20px #2472bb;
-}
-
 h1{
     width: 100%;
     display: flex;
@@ -36,7 +18,7 @@ h1{
     text-transform: uppercase;
     color: #fff;
     font-size: 40px;
-    height: 80px;
+    padding: 10px 0px;
     box-sizing: border-box;
     background-color: #0f0f0f;
 }
@@ -137,6 +119,6 @@ nav ul li a:active{
     color: #fff;
 }
 
-.babbage, .berners-lee, .clarke, .hamilton, .hopper, .lovelace, .turing{
-    background-color: #12aed4;
+.home a, .babbage a, .berners-lee a, .clarke a, .hamilton a, .hopper a, .lovelace a, .turing a{
+    border-bottom:#12aed4 solid 5px;
 }
